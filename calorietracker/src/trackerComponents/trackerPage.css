@@ -1,0 +1,235 @@
+.trackerMainPageContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.trackerMainPage {
+  display: flex;
+  width: 75%;
+  height: 90%;
+  box-shadow: 0px 0px 4px 3px white;
+  border-radius: 6px;
+  flex-direction: column;
+}
+
+.trackerMainPageTop {
+  display: flex;
+  width: 100%;
+  height: 125px;
+  box-shadow: 0px 2px 4px 1px white;
+  justify-content: center;
+  align-items: center;
+}
+
+.trackerMainPageTopMiddle {
+  display: flex;
+  width: 60%;
+  height: 80%;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  padding: 0px 25px 0px 25px;
+  gap: 15px;
+}
+
+.progressContainer {
+  display: flex;
+  width: 50%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 6px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.progressContainerTop {
+  text-align: center;
+  width: 100%;
+  height: 25px;
+}
+
+.progressContainer span {
+  font-size: 20px;
+}
+
+.daysLeftContainer {
+  display: flex;
+  width: 50%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 6px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.daysLeftContainerTop {
+  text-align: center;
+  width: 100%;
+  height: 25px;
+}
+
+.daysLeftContainer span {
+  font-size: 20px;
+}
+
+.trackerStatsContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.trackerStats {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  border-radius: 6px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trackerStatsTop {
+  display: flex;
+  width: 90%;
+  height: 35%;
+  border: 2px solid white;
+  border-radius: 6px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.daysTracker {
+  width: 100%;
+  text-align: center;
+  height: 25px;
+}
+
+.mainDaysButtonsContainer {
+  display: flex;
+  width: 90%;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+.daysButtonsContainer {
+  display: flex;
+  width: 85%;
+  height: 65%;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.faArrowLeft {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.faArrowRight {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.leftArrowBtn,
+.rightArrowBtn {
+  background: transparent;
+  border: none;
+}
+
+.leftArrowBtn:active,
+.rightArrowBtn:active {
+  transform: scale(0.92);
+}
+
+.mainTrackerStatsContainer {
+  display: flex;
+  width: 100%;
+  height: 62%;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainTrackerStats {
+  display: flex;
+  width: 90%;
+  height: 85%;
+  border: 2px solid white;
+  border-radius: 6px;
+  flex-direction: column;
+}
+
+.mainTrackerStatsTop {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+
+.mainTrackerStatsMiddle {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainFormContainer {
+  display: flex;
+  width: 80%;
+  height: 85%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainForm {
+  display: flex;
+  width: 80%;
+  height: 85%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.statsInputContainer1,
+.statsInputContainer2 {
+  display: flex;
+  width: 300px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.statsInputContainer1 input,
+.statsInputContainer2 input {
+  width: 70%;
+  height: 80%;
+  padding-left: 4px;
+}
+
+.statsButtonContainer {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+}

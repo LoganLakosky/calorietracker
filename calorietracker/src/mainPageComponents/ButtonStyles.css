@@ -1,0 +1,94 @@
+.confirmStartDateBtn {
+  background-color: #fff;
+  color: #777;
+  width: 35%;
+  height: 30%;
+  border-radius: 75px;
+}
+
+.confirmStartDateBtn {
+  animation: moveInBottom 1s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.createTrackerBtn {
+  width: 125px;
+  height: 29px;
+  background-color: #fff;
+  color: #777;
+  border-radius: 75px;
+}
+
+.createTrackerBtn::after,
+.daysButtons::after,
+.confirmStartDateBtn::after,
+.statsButton::after {
+  background-color: #fff;
+}
+
+.createTrackerBtn:hover,
+.daysButtons:hover,
+.confirmStartDateBtn:hover,
+.statsButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.createTrackerBtn:active,
+.daysButtons:active,
+.confirmStartDateBtn:active,
+.statsButton:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.createTrackerBtn:hover::after,
+.daysButtons:hover::after,
+.confirmStartDateBtn:hover::after,
+.statsButton:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.createTrackerBtn {
+  animation: moveInBottom 0.8s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.daysButtons {
+  width: 100px;
+  height: 40px;
+  background-color: #fff;
+  color: #777;
+  border-radius: 30px;
+}
+
+.daysButtons {
+  animation: moveInBottom 0.8s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.statsButton {
+  width: 125px;
+  height: 40px;
+  background-color: #fff;
+  color: #777;
+  border-radius: 30px;
+}
+
+.statsButton {
+  animation: moveInBottom 0.8s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
